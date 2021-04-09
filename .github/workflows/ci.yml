@@ -17,7 +17,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [13]
+        node: [14]
 
     steps:
       - name: Checkout 🛎
@@ -40,5 +40,8 @@ jobs:
       - name: Install dependencies 👨🏻‍💻
         run: npm ci
 
+      - name: Run chalk
+        run: npm i -g chalk
+
       - name: Run build
-        run: npm i -g chalk && npx nuxt generate
+        run: npx nuxt generate
