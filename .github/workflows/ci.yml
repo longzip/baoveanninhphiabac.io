@@ -41,10 +41,13 @@ jobs:
         run: npm ci
 
       - name: Run sanity
-        run: npm i -g @nuxtjs/sanity
+        run: npm i @nuxtjs/sanity
 
       - name: Run sanity2
-        run: npm i -g @sanity/client
+        run: npm i @sanity/client
+
+      - name: Run sanity2
+        run: npm i chalk
 
       - name: Run build
         run: npx nuxt generate
