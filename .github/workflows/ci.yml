@@ -40,8 +40,11 @@ jobs:
       - name: Install dependencies 👨🏻‍💻
         run: npm ci
 
-      - name: Run chalk
-        run: npm i -g chalk
+      - name: Run sanity
+        run: npm i -g @nuxtjs/sanity
+
+      - name: Run sanity2
+        run: npm i -g @sanity/client
 
       - name: Run build
         run: npx nuxt generate
