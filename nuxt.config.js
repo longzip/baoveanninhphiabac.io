@@ -8,14 +8,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Việc làm bảo vệ Công ty Đệ Nhất',
+    title: 'Việc làm bảo vệ tại Vĩnh Phúc - Tuyển gấp 60 nam/nữ làm nhân viên',
     htmlAttrs: {
       lang: 'vi',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Tìm việc làm bảo vệ tại Vĩnh Phúc, công ty cần tuyển nhân viên bảo vệ vĩnh yên. Đảm bảo thu nhập từ 6.5-12 triệu, hỗ trợ ăn, ở miễn phí. Còn nhận hồ sơ xin' },
       { name: 'msapplication-TileColor', content: '#ffffff' },
       { name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' },
       { name: 'theme-color', content: '#ffffff' },
@@ -155,7 +155,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
+    // '@nuxtjs/eslint-module',
     '@nuxtjs/sanity',
   ],
 

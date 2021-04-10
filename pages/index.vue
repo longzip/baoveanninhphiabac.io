@@ -54,7 +54,7 @@
               <li>Bao ăn 1-2 bữa/ca</li>
             </ul>
             <div class="button">
-              <a href="/nop-ho-so" class="fill">Có, tôi muốn xin làm bảo vệ</a>
+              <a href="#mc-embedded-subscribe-form" class="fill">Có, tôi muốn xin làm bảo vệ</a>
             </div>
           </div>
         </div>

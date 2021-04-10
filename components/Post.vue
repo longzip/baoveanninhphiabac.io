@@ -33,7 +33,7 @@
       />
     </div>
     <div class="button">
-      <NuxtLink :to="'/tuyen-dung/' + post.slug.current">Đọc tiếp... </NuxtLink>
+      <NuxtLink :to="'/tuyen-dung/' + post.slug.current + '/'">Đọc tiếp... </NuxtLink>
     </div>
   </div>
 </template>

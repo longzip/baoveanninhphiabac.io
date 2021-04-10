@@ -17,29 +17,13 @@
         </button>
         <nuxt-link class="navbar-brand" to="/">
           <strong class="mau-trang mt-5">TUYỂN BẢO VỆ VĨNH PHÚC</strong>
-          <!-- <img
-            src="/images/logo.png"
-            width="150"
-            height="auto"
-            alt="Công ty bảo vệ an ninh phía bắc tuyển dụng"
-          /> -->
         </nuxt-link>
-        <!-- <a class="navbar-brand" href="/">
-          <img
-            src="~/assets/images/tuyen-dung-bao-ve.png"
-            width="150"
-            height="50"
-            alt=""
-          /> 
-          <strong>AN THỊNH PHÁT TUYỂN DỤNG</strong>
-        </a>-->
       </div>
       <div id="navbar-02" class="navbar-collapse collapse">
         <ul class="nav navbar-nav right">
           <li><nuxt-link to="/">Trang chủ</nuxt-link></li>
-          <li><nuxt-link to="/gioi-thieu">Giới thiệu</nuxt-link></li>
-          <li><NuxtLink to="/tuyen-dung">Tin tuyển dụng</NuxtLink></li>
-          <li><a href="#">Liên hệ</a></li>
+          <li><NuxtLink to="/tuyen-dung/">Tin tuyển dụng</NuxtLink></li>
+          <li><nuxt-link to="/nop-ho-so-ung-tuyen/">Giới thiệu</nuxt-link></li>
           <li>
             <a
               class="btn btn-primary"
