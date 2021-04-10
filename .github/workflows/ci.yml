@@ -41,4 +41,4 @@ jobs:
         run: npm ci
 
       - name: Run build
-        run: npx nuxt generate
+        run: npm i -g chalk && npx nuxt generate
