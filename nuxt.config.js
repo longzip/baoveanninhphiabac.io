@@ -125,8 +125,8 @@ export default {
         json: {
           '@context': 'https://schema.org',
           '@type': 'Organization',
-          url: 'https://vieclambaovedenhat.ga',
-          logo: 'https://vieclambaovedenhat.ga/images/logo.png',
+          url: 'https://baoveanninhphiabac.ga',
+          logo: 'https://baoveanninhphiabac.ga/images/logo.png',
         },
       },
       {
@@ -164,7 +164,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    publicPath: 'https://vieclambaovedenhat.ga',
+    publicPath: 'https://baoveanninhphiabac.ga',
   },
   generate: {
     dir: 'docs',
