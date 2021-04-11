@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"https:\u002F\u002Fvieclambaovedenhat.ga\u002Fstatic\u002F1618127834",layout:"default",error:null,serverRendered:true,routePath:"\u002Ftuyen-dung\u002Ftuyen-bao-ve-vinh-yen-can-gap-20-nhan-vien-bao-ve-ca-ngay-va-toi",config:{_app:{basePath:a,assetsPath:a,cdnURL:"https:\u002F\u002Fvieclambaovedenhat.ga\u002F"}}}}("\u002F"));
