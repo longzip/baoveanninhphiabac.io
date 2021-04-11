@@ -54,7 +54,9 @@
               <li>Bao ăn 1-2 bữa/ca</li>
             </ul>
             <div class="button">
-              <a href="#mc-embedded-subscribe-form" class="fill">Có, tôi muốn xin làm bảo vệ</a>
+              <a href="#mc-embedded-subscribe-form" class="fill"
+                >Có, tôi muốn làm bảo vệ</a
+              >
             </div>
           </div>
         </div>
@@ -85,7 +87,7 @@
         </div>
         <div class="col-lg-6 col-md-6 picture">
           <img
-            src="https://eep.io/mc-gallery/0283066ababf88c6f15117b88/images/37db1806-c970-4128-99fc-8c39708c80a1.jpg"
+            src="/images/cong-ty-bao-ve-an-ninh-phia-bac-tuyen-dung.jpg"
             class="img-responsive center-block"
             alt="Công ty TNHH Dịch vụ bảo vệ An Ninh Phía Bắc"
           />
@@ -105,7 +107,7 @@
         <div class="col-lg-4 col-md-4 block">
           <div class="picture">
             <img
-              src="https://mcusercontent.com/0283066ababf88c6f15117b88/images/7a7b5a3b-3da4-4417-8173-44dc1d1382e4.jpg"
+              src="/images/viec-lam-bao-ve-vinh-phuc.jpg"
               class="img-responsive"
               alt="Tuyển dụng việc làm vĩnh phúc"
             />
@@ -115,7 +117,7 @@
                 <div>
                   <span class="icon"
                     ><a
-                      href="https://mcusercontent.com/0283066ababf88c6f15117b88/images/7a7b5a3b-3da4-4417-8173-44dc1d1382e4.jpg"
+                      href="/images/viec-lam-bao-ve-vinh-phuc.jpg"
                       class="image-popup-vertical-fit"
                       title="Pellentesque Habitant"
                       ><i class="fa fa-search"></i></a
@@ -136,7 +138,7 @@
         <div class="col-lg-4 col-md-4 block">
           <div class="picture">
             <img
-              src="https://mcusercontent.com/0283066ababf88c6f15117b88/images/c157e11f-56a6-45bf-befa-3859bb46f885.jpg"
+              src="/images/viec-lam-bao-ve-o-phuc-yen.jpg"
               class="img-responsive"
               alt="Tuyển dụng việc làm vĩnh phúc"
             />
@@ -146,7 +148,7 @@
                 <div>
                   <span class="icon"
                     ><a
-                      href="https://mcusercontent.com/0283066ababf88c6f15117b88/images/c157e11f-56a6-45bf-befa-3859bb46f885.jpg"
+                      href="/images/viec-lam-bao-ve-o-phuc-yen.jpg"
                       class="image-popup-vertical-fit"
                       title="Pellentesque Habitant"
                       ><i class="fa fa-search"></i></a
@@ -166,7 +168,7 @@
         <div class="col-lg-4 col-md-4 block">
           <div class="picture">
             <img
-              src="https://mcusercontent.com/0283066ababf88c6f15117b88/images/b3bc8788-7866-4193-a58f-b28cb2287e29.jpg"
+              src="/images/dao-tao-nghiep-vu-bao-ve-pccc.jpg"
               class="img-responsive"
               alt="Tìm việc làm ở vĩnh phúc"
             />
@@ -176,7 +178,7 @@
                 <div>
                   <span class="icon"
                     ><a
-                      href="https://mcusercontent.com/0283066ababf88c6f15117b88/images/b3bc8788-7866-4193-a58f-b28cb2287e29.jpg"
+                      href="/images/dao-tao-nghiep-vu-bao-ve-pccc.jpg"
                       class="image-popup-vertical-fit"
                       title="Pellentesque Habitant"
                       ><i class="fa fa-search"></i></a
@@ -233,7 +235,7 @@
                   type="text"
                   class="form-control"
                   name="FNAME"
-                  value=""
+                  value="Trần Văn A"
                   placeholder="Họ tên của bạn *"
                 />
               </div>
@@ -244,8 +246,8 @@
                   class="form-control"
                   type="text"
                   name="PHONE"
-                  value=""
-                  placeholder="Số điện thoại *"
+                  value="097xxx"
+                  placeholder="Số điện thoại Viettel *"
                 />
               </div>
               <div class="form-group">
@@ -253,7 +255,7 @@
                 <input
                   id="mce-MMERGE6"
                   type="text"
-                  value=""
+                  value="ở đâu?"
                   name="MMERGE6"
                   class="form-control"
                   placeholder="Địa chỉ nhà bạn *"
@@ -266,7 +268,7 @@
                   type="email"
                   class="form-control"
                   name="EMAIL"
-                  value=""
+                  value="ten@gmail.com"
                   placeholder="Địa chỉ email nhận thông báo *"
                 />
               </div>
@@ -346,21 +348,6 @@
   </div>
 </template>
 
-<script>
-// import { groq } from '@nuxtjs/sanity'
-// import Post from '~/components/Post'
-// export default {
-//   components: {
-//     Post,
-//   },
-//   async asyncData({ $sanity }) {
-//     // const querySave = groq`*[_type == 'post' && author._ref == '2a7d74a8-83da-4dd0-9c0f-9f3bce87a51f']{_id, title, slug}`
-//     const query = groq`*[_type == "post" && author._ref == '2a7d74a8-83da-4dd0-9c0f-9f3bce87a51f']{_id, title, body, slug, 'imageId': mainImage.asset->_id}`
-//     const posts = await $sanity.fetch(query)
-//     return { posts }
-//   },
-// }
-</script>
 <style scoped>
 .b-img-01 {
   background-attachment: fixed;

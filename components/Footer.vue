@@ -95,13 +95,15 @@
             KCN Quang Minh, Mê Linh, Hà Nội
             <p>
               <a
-                class="dmca-badge"
-                href="//www.dmca.com/Protection/Status.aspx?ID=35f784c3-fdc5-46f2-882e-b74fbf8119db"
+                href="//www.dmca.com/Protection/Status.aspx?ID=bbf30974-e49d-4f2c-9a49-5d833800ae9a"
                 title="DMCA.com Protection Status"
-                ><img
+                class="dmca-badge"
+              >
+                <img
+                  src="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=bbf30974-e49d-4f2c-9a49-5d833800ae9a"
                   alt="DMCA.com Protection Status"
-                  src="https://images.dmca.com/Badges/dmca_protected_sml_120l.png?ID=35f784c3-fdc5-46f2-882e-b74fbf8119db"
               /></a>
+              <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
             </p>
           </div>
           <div class="call-mobile">
@@ -112,7 +114,7 @@
           <div
             class="fb-customerchat"
             attribution="setup_tool"
-            page_id="110994124405341"
+            page_id="110522487140550"
           ></div>
         </div>
         <!-- About Us Ends -->
@@ -156,7 +158,7 @@
       }
       gtag('js', new Date())
 
-      gtag('config', 'G-SFDXCZ47RJ')
+      gtag('config', 'G-2G9ZM8JQ20')
     </script>
   </div>
 </template>
@@ -165,15 +167,17 @@ export default {
   data() {
     return {
       jobs: [
-  {
-    "_id": "304bbbfc-5e79-4e0a-90a6-a93c4744a3e6",
-    "slug": {
-      "_type": "slug",
-      "current": "tuyen-bao-ve-vinh-yen-can-gap-20-nhan-vien-bao-ve-ca-ngay-va-toi"
-    },
-    "title": "Tuyển bảo vệ Vĩnh Yên Cần gấp 20 Nhân viên bảo vệ ca ngày và tối"
-  }
-],
+        {
+          _id: '304bbbfc-5e79-4e0a-90a6-a93c4744a3e6',
+          slug: {
+            _type: 'slug',
+            current:
+              'tuyen-bao-ve-vinh-yen-can-gap-20-nhan-vien-bao-ve-ca-ngay-va-toi',
+          },
+          title:
+            'Tuyển bảo vệ Vĩnh Yên Cần gấp 20 Nhân viên bảo vệ ca ngày và tối',
+        },
+      ],
       tuKhoas: [
         'tìm việc làm bảo vệ',
         'tuyển bảo vệ',
