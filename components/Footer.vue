@@ -4,9 +4,8 @@
       <!-- Row 1 Starts -->
       <div class="row row1">
         <div class="col-lg-9 col-md-9 col-sm-9">
-          <!-- <img src="~/assets/images/logo/footer-logo.png" alt="" /> -->
           <h2 class="mau-trang">
-            Công ty Bảo Vệ An Thịnh Phát - Tuyển dụng bảo vệ
+            Công ty bảo vệ tại Vĩnh Phúc - Tuyển dụng bảo vệ
           </h2>
         </div>
         <!-- Social Icons Starts -->
@@ -18,7 +17,7 @@
             <li>
               <a
                 target="_blank"
-                href="https://www.facebook.com/tuyenbaoveanthinhphat/"
+                href="https://www.facebook.com/baoveanninhphiabac"
                 ><i class="fa fa-facebook"></i
               ></a>
             </li>
@@ -37,7 +36,7 @@
       <div class="row row2">
         <!-- Tags Starts -->
         <div class="col-lg-3 col-md-6 col-sm-6 clearfix tags">
-          <h1>Từ khóa tìm kiếm</h1>
+          <h4 class="tieu-de">Từ khóa tìm kiếm</h4>
           <ul>
             <li v-for="(tuKhoa, index) in tuKhoas" :key="index">
               <a href="#">{{ tuKhoa }}</a>
@@ -47,7 +46,7 @@
         <!-- Tags Ends -->
         <!-- Recent Posts Starts -->
         <div class="col-lg-3 col-md-6 col-sm-6 recent-posts">
-          <h1>Tin tuyển dụng mới nhất</h1>
+          <h4 class="tieu-de">Tin tuyển dụng mới nhất</h4>
           <ul>
             <li v-for="job in jobs" :key="job._id">
               <nuxt-link :to="'/' + job.slug.current">{{
@@ -59,11 +58,14 @@
         <!-- Recent Posts Ends -->
         <!-- From Blog Starts -->
         <div class="col-lg-3 col-md-6 col-sm-6 from-blog">
-          <h1>Xin làm bảo vệ</h1>
+          <h4 class="tieu-de">Xin làm bảo vệ</h4>
           <ul>
             <li class="clearfix">
               <div class="picture">
-                <img src="~/assets/images/blog/footer/1.jpg" alt="" />
+                <img
+                  src="~/assets/images/blog/footer/1.jpg"
+                  alt="việc làm bảo vệ"
+                />
               </div>
               <div class="info">
                 <div class="caption">
@@ -79,18 +81,28 @@
         <!-- From Blog Ends -->
         <!-- About Us Starts -->
         <div class="col-lg-3 col-md-6 col-sm-6 about">
-          <h1>Tuyển dụng bảo vệ</h1>
+          <h4 class="tieu-de">Việc làm bảo vệ ở Vĩnh Phúc</h4>
           <div class="description">
             <strong
-              >Công Ty TNHH Dịch Vụ Bảo Vệ An Thịnh Phát, Mã số thuế:
-              2500493741, Địa chỉ: Số nhà 38, Tổ 7, Phường Trưng Trắc, Thị xã
-              Phúc Yên, Tỉnh Vĩnh Phúc:</strong
+              >Thông tin Công Ty TNHH Dịch Vụ Bảo Vệ An Ninh Phía Bắc ở Thị xã
+              Phúc Yên, Vĩnh Phúc: mã số thuế: 2500506581, Địa chỉ: Số 56, Đường
+              Lạc Long Quân, P. Hùng Vương, TP. Phúc Yên,Vĩnh Phúc:</strong
             ><br />
             <strong>Cần tuyển dụng</strong>
-            <em>nhân viên an ninh bảo vệ</em> tòa nhà, siêu thị, nhà máy làm
-            việc tại KCN Khai Quang, Vĩnh Yên, KCN Bình Xuyên, Vĩnh Phúc hoặc
-            KCN Bá Thiện, Vĩnh Phúc. Khu vực Phúc Yên. KCN Quang Minh, Mê Linh,
-            Hà Nội
+            <em>nhân viên bảo vệ và an ninh</em> tòa nhà, siêu thị, nhà máy làm
+            việc tại KCN Khai Quang, Vĩnh Yên, KCN Bình Xuyên, KCN Thăng Long,
+            Vĩnh Phúc hoặc KCN Bá Thiện, Vĩnh Phúc. Khu vực Phúc Yên, Xuân Hòa.
+            KCN Quang Minh, Mê Linh, Hà Nội
+            <p>
+              <a
+                class="dmca-badge"
+                href="//www.dmca.com/Protection/Status.aspx?ID=35f784c3-fdc5-46f2-882e-b74fbf8119db"
+                title="DMCA.com Protection Status"
+                ><img
+                  alt="DMCA.com Protection Status"
+                  src="https://images.dmca.com/Badges/dmca_protected_sml_120l.png?ID=35f784c3-fdc5-46f2-882e-b74fbf8119db"
+              /></a>
+            </p>
           </div>
           <div class="call-mobile">
             <a id="callnowbutton" href="tel:0978333963">097 833 39 63</a
@@ -107,7 +119,7 @@
       </div>
       <!-- Row 2 Ends -->
     </div>
-    <!-- Messenger Plugin chat Code -->
+    <!-- Load Facebook SDK for JavaScript -->
     <script>
       window.fbAsyncInit = function () {
         FB.init({
@@ -126,7 +138,7 @@
       })(document, 'script', 'facebook-jssdk')
     </script>
 
-    <!-- Your Plugin chat code -->
+    <!-- Your Chat Plugin code -->
     <div
       class="fb-customerchat"
       attribution="page_inbox"
@@ -202,28 +214,34 @@ export default {
         },
       ],
       tuKhoas: [
-        'tuyển bảo vệ',
-        'việc làm bảo vệ',
         'tìm việc làm bảo vệ',
-        'tuyển bảo vệ hà nội',
-        'việc làm bảo vệ tại hà nội',
-        'tìm việc bảo vệ',
-        'làm bảo vệ',
+        'tuyển bảo vệ',
+        'việc làm bảo vệ tại vĩnh phúc',
+        'tìm việc làm bảo vệ ở vĩnh phúc',
+        'việc làm vĩnh phúc',
         'tuyển nhân viên bảo vệ',
-        'tuyển dụng bảo vệ',
-        'tuyển bảo vệ nội bộ',
-        'tìm việc làm bảo vệ nội bộ',
-        'cần tuyển bảo vệ ca đêm',
-        'cần tuyển bảo vệ',
-        'tuyển bảo vệ ca 8 tiếng tại hà nội',
-        'tuyển bảo vệ trường học',
-        'bảo vệ nội bộ',
-        'tuyển bảo vệ lương cao',
-        'tim viec lam bao ve',
-        'bao ve noi bo',
-        'nhân viên bảo vệ',
+        'việc làm bảo vệ',
+        'tuyển bảo vệ vĩnh phúc',
+        'tuyển bảo vệ vĩnh yên',
+        'việc làm tại vĩnh phúc',
+        'tìm việc làm ở vĩnh phúc',
+        'tuyển dụng việc làm vĩnh phúc',
+        'tuyển bảo vệ tại vĩnh phúc',
+        'tìm việc bảo vệ',
+        'tuyển dụng tại vĩnh phúc',
       ],
     }
   },
 }
 </script>
+<style scoped>
+.tieu-de {
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 30px;
+}
+</style>
