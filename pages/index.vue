@@ -364,7 +364,7 @@
 <style scoped>
 .b-img-01 {
   background-attachment: fixed;
-  background-image: url(~/assets/images/tuyen-bao-ve-o-vinh-phuc.jpg);
+  background-image: url(https://mcusercontent.com/0283066ababf88c6f15117b88/images/dc3fa413-f101-49bc-86ee-6a56909e49aa.jpg);
   background-repeat: repeat-y;
   background-position: 50% 0;
   background-size: cover;
