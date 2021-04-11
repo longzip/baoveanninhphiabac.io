@@ -49,7 +49,7 @@
           <h4 class="tieu-de">Tin tuyển dụng mới nhất</h4>
           <ul>
             <li v-for="job in jobs" :key="job._id">
-              <nuxt-link :to="'/' + job.slug.current">{{
+              <nuxt-link :to="'/tuyen-dung/' + job.slug.current">{{
                 job.title
               }}</nuxt-link>
             </li>
