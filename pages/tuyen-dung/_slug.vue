@@ -230,7 +230,7 @@ export default {
             employmentType: 'CONTRACTOR',
             hiringOrganization: {
               '@type': 'Organization',
-              name: 'Công Ty TNHH Dịch Vụ Bảo Vệ An Thịnh Phát',
+              name: 'Công Ty TNHH Dịch Vụ Bảo Vệ An Ninh Phía Bắc',
               sameAs: 'https://baoveanninhphiabac.ga',
               logo: 'https://baoveanninhphiabac.ga/images/logo.png',
             },
@@ -242,7 +242,7 @@ export default {
                   '38, Tổ 13, Phường Trưng Trắc, Thị Xã Phúc Yên, Phường Trưng Trắc, Phúc Yên, Vĩnh Phúc',
                 addressLocality: 'Vĩnh Phúc',
                 addressRegion: 'Vĩnh Phúc',
-                postalCode: '15906',
+                postalCode: '15000',
                 addressCountry: 'VN',
               },
             },
@@ -251,8 +251,8 @@ export default {
               currency: 'VND',
               value: {
                 '@type': 'QuantitativeValue',
-                minValue: 14.0,
-                maxValue: 16.0,
+                minValue: 14000,
+                maxValue: 16000,
                 unitText: 'HOUR',
               },
             },
