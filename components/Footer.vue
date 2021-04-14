@@ -48,7 +48,7 @@
         <div class="col-lg-3 col-md-6 col-sm-6 recent-posts">
           <h4 class="tieu-de">Tin tuyển dụng mới nhất</h4>
           <ul>
-            <li v-for="job in jobs" :key="job._id">
+            <li v-for="(job, index) in jobs" :key="index">
               <nuxt-link :to="'/tuyen-dung/' + job.slug.current + '/'">{{
                 job.title
               }}</nuxt-link>
@@ -196,14 +196,20 @@ export default {
     return {
       jobs: [
         {
-          _id: '304bbbfc-5e79-4e0a-90a6-a93c4744a3e6',
           slug: {
-            _type: 'slug',
             current:
               'tuyen-bao-ve-vinh-yen-can-gap-20-nhan-vien-bao-ve-ca-ngay-va-toi',
           },
           title:
             'Tuyển bảo vệ Vĩnh Yên Cần gấp 20 Nhân viên bảo vệ ca ngày và tối',
+        },
+        {
+          slug: {
+            current:
+              'tuyen-dung-phuc-yen-can-tuyen-05-nhan-vien-lam-bao-ve-kho-hang',
+          },
+          title:
+            'Tuyển dụng phúc yên: Cần tuyển 05 nhân viên làm bảo vệ kho hàng',
         },
       ],
       tuKhoas: [

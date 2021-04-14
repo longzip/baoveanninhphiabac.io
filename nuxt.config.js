@@ -1,3 +1,5 @@
+const publicPath = 'https://baoveanninhphiabac.ga'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -15,7 +17,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Tìm việc làm bảo vệ tại Vĩnh Phúc, công ty cần tuyển nhân viên bảo vệ vĩnh yên. Đảm bảo thu nhập từ 6.5-12 triệu, hỗ trợ ăn, ở miễn phí. Còn nhận hồ sơ xin' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Tìm việc làm bảo vệ tại Vĩnh Phúc, công ty cần tuyển nhân viên bảo vệ vĩnh yên. Đảm bảo thu nhập từ 6.5-12 triệu, hỗ trợ ăn, ở miễn phí. Còn nhận hồ sơ xin',
+      },
       { name: 'msapplication-TileColor', content: '#ffffff' },
       { name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' },
       { name: 'theme-color', content: '#ffffff' },
@@ -125,8 +132,8 @@ export default {
         json: {
           '@context': 'https://schema.org',
           '@type': 'Organization',
-          url: 'https://baoveanninhphiabac.ga',
-          logo: 'https://baoveanninhphiabac.ga/images/logo.png',
+          url: publicPath,
+          logo: publicPath + '/images/logo.png',
         },
       },
       {
@@ -160,11 +167,45 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['@nuxtjs/sitemap'],
+
+  sitemap: {
+    hostname: publicPath,
+    gzip: true,
+    routes: [
+      {
+        url: '/',
+        priority: 1.0,
+        lastmod: new Date(),
+      },
+      {
+        url: '/tuyen-dung/',
+        priority: 0.8,
+        lastmod: new Date(),
+      },
+      {
+        url: '/nop-ho-so-ung-tuyen/',
+        priority: 0.8,
+        lastmod: new Date(),
+      },
+      {
+        url:
+          '/tuyen-dung/tuyen-bao-ve-vinh-yen-can-gap-20-nhan-vien-bao-ve-ca-ngay-va-toi/',
+        priority: 0.8,
+        lastmod: new Date(),
+      },
+      {
+        url:
+          '/tuyen-dung/tuyen-dung-phuc-yen-can-tuyen-05-nhan-vien-lam-bao-ve-kho-hang/',
+        priority: 0.8,
+        lastmod: new Date(),
+      },
+    ],
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    publicPath: 'https://baoveanninhphiabac.ga',
+    publicPath,
   },
   generate: {
     dir: 'docs',
