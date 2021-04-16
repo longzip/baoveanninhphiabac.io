@@ -95,12 +95,12 @@
             KCN Quang Minh, Mê Linh, Hà Nội
             <p>
               <a
-                href="//www.dmca.com/Protection/Status.aspx?ID=bbf30974-e49d-4f2c-9a49-5d833800ae9a"
+                href="//www.dmca.com/Protection/Status.aspx?ID=8d47fb0d-bdd6-4588-9c9d-006862f4eac6"
                 title="DMCA.com Protection Status"
                 class="dmca-badge"
               >
                 <img
-                  src="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=bbf30974-e49d-4f2c-9a49-5d833800ae9a"
+                  src="https://images.dmca.com/Badges/dmca_protected_sml_120aj.png?ID=8d47fb0d-bdd6-4588-9c9d-006862f4eac6"
                   alt="DMCA.com Protection Status"
               /></a>
               <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
