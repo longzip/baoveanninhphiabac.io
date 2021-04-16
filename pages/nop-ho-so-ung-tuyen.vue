@@ -21,14 +21,13 @@
             <h2>TUYỂN DỤNG BẢO VỆ</h2>
             <h1>Công ty Bảo Vệ An Ninh Phía Bắc</h1>
             <div class="description">
-              Tuyển dụng bảo vệ An Ninh Phía Bắc cảm ơn bạn đã quan tâm tin tuyển
-              bảo vệ của chúng tôi.
+              Tuyển dụng bảo vệ An Ninh Phía Bắc cảm ơn bạn đã quan tâm tin
+              tuyển bảo vệ của chúng tôi.
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-6 col-lg-offset-3">
-          </div>
+          <div class="col-lg-6 col-lg-offset-3"></div>
         </div>
       </div>
     </div>

@@ -1,3 +1,4 @@
+import jobs from './jobs.json'
 const publicPath = 'https://baoveanninhphiabac.ga'
 
 export default {
@@ -170,36 +171,23 @@ export default {
   modules: ['@nuxtjs/sitemap'],
 
   sitemap: {
+    defaults: {
+      changefreq: 'daily',
+      priority: 0.8,
+      lastmod: new Date(),
+    },
     hostname: publicPath,
     gzip: true,
     routes: [
       {
         url: '/',
         priority: 1.0,
-        lastmod: new Date(),
       },
-      {
-        url: '/tuyen-dung/',
-        priority: 0.8,
-        lastmod: new Date(),
-      },
-      {
-        url: '/nop-ho-so-ung-tuyen/',
-        priority: 0.8,
-        lastmod: new Date(),
-      },
-      {
-        url:
-          '/tuyen-dung/tuyen-bao-ve-vinh-yen-can-gap-20-nhan-vien-bao-ve-ca-ngay-va-toi/',
-        priority: 0.8,
-        lastmod: new Date(),
-      },
-      {
-        url:
-          '/tuyen-dung/tuyen-dung-phuc-yen-can-tuyen-05-nhan-vien-lam-bao-ve-kho-hang/',
-        priority: 0.8,
-        lastmod: new Date(),
-      },
+      ...jobs.map((job) => {
+        return {
+          url: `/tuyen-dung/${job.slug.current}/`,
+        }
+      }),
     ],
   },
 
@@ -209,5 +197,8 @@ export default {
   },
   generate: {
     dir: 'docs',
+  },
+  server: {
+    host: '0', // default: localhost
   },
 }

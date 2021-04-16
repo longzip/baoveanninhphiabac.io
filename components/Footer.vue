@@ -139,13 +139,6 @@
         fjs.parentNode.insertBefore(js, fjs)
       })(document, 'script', 'facebook-jssdk')
     </script>
-
-    <!-- Your Chat Plugin code -->
-    <div
-      class="fb-customerchat"
-      attribution="page_inbox"
-      page_id="110763834427796"
-    ></div>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -158,7 +151,7 @@
       }
       gtag('js', new Date())
 
-      gtag('config', 'G-2G9ZM8JQ20')
+      gtag('config', 'G-GMEQ6K7NM9')
     </script>
     <!-- Facebook Pixel Code -->
     <script>
