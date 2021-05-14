@@ -48,7 +48,7 @@
         <div class="col-lg-3 col-md-6 col-sm-6 recent-posts">
           <h4 class="tieu-de">Tin tuyển dụng mới nhất</h4>
           <ul>
-            <li v-for="job in jobs" :key="job._id">
+            <li v-for="(job, index) in jobs" :key="index">
               <nuxt-link :to="'/tuyen-dung/' + job.slug.current + '/'">{{
                 job.title
               }}</nuxt-link>
@@ -95,12 +95,12 @@
             KCN Quang Minh, Mê Linh, Hà Nội
             <p>
               <a
-                href="//www.dmca.com/Protection/Status.aspx?ID=bbf30974-e49d-4f2c-9a49-5d833800ae9a"
+                href="//www.dmca.com/Protection/Status.aspx?ID=8d47fb0d-bdd6-4588-9c9d-006862f4eac6"
                 title="DMCA.com Protection Status"
                 class="dmca-badge"
               >
                 <img
-                  src="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=bbf30974-e49d-4f2c-9a49-5d833800ae9a"
+                  src="https://images.dmca.com/Badges/dmca_protected_sml_120aj.png?ID=8d47fb0d-bdd6-4588-9c9d-006862f4eac6"
                   alt="DMCA.com Protection Status"
               /></a>
               <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
@@ -139,13 +139,6 @@
         fjs.parentNode.insertBefore(js, fjs)
       })(document, 'script', 'facebook-jssdk')
     </script>
-
-    <!-- Your Chat Plugin code -->
-    <div
-      class="fb-customerchat"
-      attribution="page_inbox"
-      page_id="110763834427796"
-    ></div>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -158,7 +151,7 @@
       }
       gtag('js', new Date())
 
-      gtag('config', 'G-2G9ZM8JQ20')
+      gtag('config', 'G-GMEQ6K7NM9')
     </script>
     <!-- Facebook Pixel Code -->
     <script>
@@ -196,14 +189,20 @@ export default {
     return {
       jobs: [
         {
-          _id: '304bbbfc-5e79-4e0a-90a6-a93c4744a3e6',
           slug: {
-            _type: 'slug',
             current:
               'tuyen-bao-ve-vinh-yen-can-gap-20-nhan-vien-bao-ve-ca-ngay-va-toi',
           },
           title:
             'Tuyển bảo vệ Vĩnh Yên Cần gấp 20 Nhân viên bảo vệ ca ngày và tối',
+        },
+        {
+          slug: {
+            current:
+              'tuyen-dung-phuc-yen-can-tuyen-05-nhan-vien-lam-bao-ve-kho-hang',
+          },
+          title:
+            'Tuyển dụng phúc yên: Cần tuyển 05 nhân viên làm bảo vệ kho hàng',
         },
       ],
       tuKhoas: [

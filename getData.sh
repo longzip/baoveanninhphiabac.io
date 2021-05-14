@@ -1,0 +1,1 @@
+cd ../vieclambaove && sanity documents query "*[_type=='post' && author._ref=='7b426352-eb03-42da-8356-16dd25119f1e']{_id,slug,title}" > ../baoveanninhphiabac.io/jobs.json

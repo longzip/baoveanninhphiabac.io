@@ -1,3 +1,6 @@
+import jobs from './jobs.json'
+const publicPath = 'https://baoveanninhphiabac.ga'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -15,7 +18,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Tìm việc làm bảo vệ tại Vĩnh Phúc, công ty cần tuyển nhân viên bảo vệ vĩnh yên. Đảm bảo thu nhập từ 6.5-12 triệu, hỗ trợ ăn, ở miễn phí. Còn nhận hồ sơ xin' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Tìm việc làm bảo vệ tại Vĩnh Phúc, công ty cần tuyển nhân viên bảo vệ vĩnh yên. Đảm bảo thu nhập từ 6.5-12 triệu, hỗ trợ ăn, ở miễn phí. Còn nhận hồ sơ xin',
+      },
       { name: 'msapplication-TileColor', content: '#ffffff' },
       { name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' },
       { name: 'theme-color', content: '#ffffff' },
@@ -125,8 +133,8 @@ export default {
         json: {
           '@context': 'https://schema.org',
           '@type': 'Organization',
-          url: 'https://baoveanninhphiabac.ga',
-          logo: 'https://baoveanninhphiabac.ga/images/logo.png',
+          url: publicPath,
+          logo: publicPath + '/images/logo.png',
         },
       },
       {
@@ -160,13 +168,37 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['@nuxtjs/sitemap'],
+
+  sitemap: {
+    defaults: {
+      changefreq: 'daily',
+      priority: 0.8,
+      lastmod: new Date(),
+    },
+    hostname: publicPath,
+    gzip: true,
+    routes: [
+      {
+        url: '/',
+        priority: 1.0,
+      },
+      ...jobs.map((job) => {
+        return {
+          url: `/tuyen-dung/${job.slug.current}/`,
+        }
+      }),
+    ],
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    publicPath: 'https://baoveanninhphiabac.ga',
+    publicPath,
   },
   generate: {
     dir: 'docs',
+  },
+  server: {
+    host: '0', // default: localhost
   },
 }

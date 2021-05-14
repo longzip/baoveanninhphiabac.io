@@ -11,8 +11,8 @@
     <h1>{{ post.title }}</h1>
     <div class="meta clearfix">
       <ul>
-        <li>tìm việc <a href="">Tuyển bảo vệ Đệ Nhất</a></li>
-        <li>việc làm <a href=""> Bảo Vệ Hà Nội</a></li>
+        <li>tìm việc <a href="">Tuyển bảo vệ An Ninh Phía Bắc</a></li>
+        <li>việc làm <a href=""> Bảo Vệ Vĩnh Phúc</a></li>
         <li>ngày {{ new Date().toLocaleDateString() }}</li>
         <li><a href="">17 Hồ sơ</a></li>
         <li>Quan tâm 299</li>
@@ -33,7 +33,9 @@
       />
     </div>
     <div class="button">
-      <NuxtLink :to="'/tuyen-dung/' + post.slug.current + '/'">Đọc tiếp... </NuxtLink>
+      <NuxtLink :to="'/tuyen-dung/' + post.slug.current + '/'"
+        >Đọc tiếp...
+      </NuxtLink>
     </div>
   </div>
 </template>
