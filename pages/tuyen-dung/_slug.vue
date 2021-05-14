@@ -48,7 +48,9 @@
                         <div
                           class="fb-share-button"
                           :data-href="
-                            'https://baoveanninhphiabac.ga' + $route.fullPath + '/'
+                            'https://baoveanninhphiabac.ga' +
+                            $route.fullPath +
+                            '/'
                           "
                           data-layout="button_count"
                           data-size="small"
@@ -104,57 +106,126 @@
               </div>
               <div id="ung_tuyen" class="leave-a-reply">
                 <h3>Ứng tuyển: {{ post.title }}</h3>
-                <div class="row">
-                  <div class="col-lg-4 col-md-4 col-sm-4">
-                    <div class="form-group">
-                      <input
-                        id="CommentName"
-                        type="text"
-                        class="form-control"
-                        placeholder="Họ và tên"
-                      />
+                <form
+                  id="mc4wp-form-1"
+                  class="mc4wp-form mc4wp-form-5"
+                  method="post"
+                  data-id="5"
+                  data-name="Ứng tuyển"
+                >
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                      <div class="form-group">
+                        <label>Họ và tên</label>
+                        <input
+                          class="form-control"
+                          type="text"
+                          name="FNAME"
+                          required="*"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                      <div class="form-group">
+                        <label>Tuổi</label>
+                        <input
+                          class="form-control"
+                          type="number"
+                          name="YEAROLD"
+                          required="*"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                      <div class="form-group">
+                        <label>Chiều cao + cân nặng</label>
+                        <input
+                          class="form-control"
+                          type="text"
+                          name="BMI"
+                          required="*"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                      <div class="form-group">
+                        <label>Địa chỉ hiện tại</label>
+                        <input
+                          class="form-control"
+                          type="text"
+                          name="CURRENTADD"
+                          required="*"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                      <div class="form-group">
+                        <label>Số điện thoại</label>
+                        <input
+                          class="form-control"
+                          type="tel"
+                          name="PHONE"
+                          required=""
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                      <div class="form-group">
+                        <label>Email nhận thông báo tuyển dụng: </label>
+                        <input
+                          class="form-control"
+                          type="email"
+                          name="EMAIL"
+                          required="*"
+                        />
+                        <p>
+                          Chúng tôi sẽ gửi email thông báo tuyển dụng đến bạn.
+                          (nếu không có email bạn có thể dùng email của bạn bè
+                          hoặc người thân để nhận thông báo).
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                      <div class="button">
+                        <input
+                          class="btn btn-default"
+                          type="submit"
+                          value="Có, tôi muốn xin làm bảo vệ"
+                        />
+                      </div>
+                      <p>
+                        <br />
+                        Hỗ trợ gọi zalo chị Thắm
+                        <a href="tel:0978333963">0978 333 963</a> hoặc
+                        <a href="https://zalo.me/0978333963">Zalo</a>
+                      </p>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-md-4 col-sm-4">
-                    <div class="form-group">
-                      <input
-                        id="CommentEmail"
-                        type="email"
-                        class="form-control"
-                        placeholder="Địa chỉ email"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-4 col-sm-4">
-                    <div class="form-group">
-                      <input
-                        id="CommentWebsite"
-                        type="text"
-                        class="form-control"
-                        placeholder="Số điện thoại"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="form-group">
-                      <textarea
-                        class="form-control"
-                        rows="10"
-                        placeholder="Viết giới thiệu ngắn gọn về bản thân (điểm mạnh, điểm yếu) và nêu rõ mong muốn, lý do làm việc tại công ty này. Đây là cách gây ấn tượng với nhà tuyển dụng nếu bạn có chưa có kinh nghiệm làm việc (hoặc CV không tốt)."
-                      ></textarea>
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <button type="submit" class="btn btn-default" disabled>
-                      Nộp hồ sơ
-                    </button>
-                    <br />
-                    <span
-                      >Chức năng đang cập nhật... Mời bạn qua văn phòng công ty
-                      để nộp hồ sơ trực tiếp</span
-                    >
-                  </div>
-                </div>
+
+                  <label style="display: none !important"
+                    >Leave this field empty if you're human:
+                    <input
+                      type="text"
+                      name="_mc4wp_honeypot"
+                      value=""
+                      tabindex="-1"
+                      autocomplete="off" /></label
+                  ><input
+                    type="hidden"
+                    name="_mc4wp_timestamp"
+                    value="1621035386"
+                  /><input
+                    type="hidden"
+                    name="_mc4wp_form_id"
+                    value="5"
+                  /><input
+                    type="hidden"
+                    name="_mc4wp_form_element_id"
+                    value="mc4wp-form-1"
+                  />
+                  <div class="mc4wp-response"></div>
+                </form>
               </div>
             </div>
           </div>

@@ -1,0 +1,64 @@
+Tìm việc làm tại phúc yên, tuyển dụng phúc yên, việc làm part time phúc yên,
+phúc yên tuyển dụng, tìm việc làm phúc yên, viec lam phuc yen,
+
+<form
+  id="mc4wp-form-1"
+  class="mc4wp-form mc4wp-form-5"
+  method="post"
+  data-id="5"
+  data-name="Ứng tuyển"
+>
+  <div class="mc4wp-form-fields">
+    <p>
+      <label>Họ và tên</label>
+      <input type="text" name="FNAME" required="*" />
+    </p>
+    <p>
+      <label>Tuổi</label>
+      <input type="number" name="YEAROLD" required="*" />
+    </p>
+    <p>
+      <label>Chiều cao + cân nặng</label>
+      <input type="text" name="BMI" required="*" />
+    </p>
+    <p>
+      <label>Địa chỉ hiện tại</label>
+      <input type="text" name="CURRENTADD" required="*" />
+    </p>
+    <p>
+      <label>Số điện thoại</label>
+      <input type="tel" name="PHONE" required="" />
+    </p>
+    <p>
+      <label
+        >Email đăng ký:
+        <input type="email" name="EMAIL" required="*" />
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="AGREE_TO_TERMS" type="checkbox" value="1" required="" />
+        <a href="https://vn.vieclambaove.ga/chinh-sach-bao-mat/" target="_blank"
+          >Tôi đã đọc và đồng ý với các điều khoản &amp; điều kiện
+        </a>
+      </label>
+    </p>
+    <p>
+      <input type="submit" value="Ứng tuyển ngay" class="btn btn-default" />
+    </p>
+  </div>
+  <label style="display: none !important"
+    >Leave this field empty if you're human:
+    <input
+      type="text"
+      name="_mc4wp_honeypot"
+      value=""
+      tabindex="-1"
+      autocomplete="off" /></label
+  ><input type="hidden" name="_mc4wp_timestamp" value="1621034134" /><input
+    type="hidden"
+    name="_mc4wp_form_id"
+    value="5"
+  /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />
+  <div class="mc4wp-response"></div>
+</form>

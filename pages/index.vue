@@ -215,84 +215,114 @@
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6">
             <p class="nhan-thong-bao">
-              Chúng tôi rất trân trọng khi bạn gia nhập vào đội nhóm
-              <strong>Bảo Vệ Vĩnh Phúc</strong>
+              Bạn muốn xin làm bảo vệ tại Vĩnh Phúc?
+              <strong>Nộp hồ sơ ứng tuyển ngay hôm nay tại đây!</strong>
             </p>
 
             <form
-              id="mc-embedded-subscribe-form"
-              action="https://baoveanninhphiabac.us4.list-manage.com/subscribe/post?u=0283066ababf88c6f15117b88&amp;id=a6626b645e"
-              class="ContactForm-07"
+              id="mc4wp-form-1"
+              class="mc4wp-form mc4wp-form-5"
               method="post"
-              name="mc-embedded-subscribe-form"
-              target="_blank"
-              novalidate
+              data-id="5"
+              data-name="Ứng tuyển"
             >
-              <div id="mc_embed_signup_scroll" class="form-group">
-                <label>Họ và tên</label>
-                <input
-                  id="mce-FNAME"
-                  type="text"
-                  class="form-control"
-                  name="FNAME"
-                  value="Trần Văn A"
-                  placeholder="Họ tên của bạn *"
-                />
+              <div class="mc4wp-form-fields">
+                <p>
+                  Hãy nộp hồ sơ cho chúng tôi theo form dưới đây. Chúng tôi sẽ
+                  liên hệ ngay để hỗ trợ bạn sau khi nhận được đầy đủ thông tin
+                  bạn gửi.
+                </p>
+                <div class="form-group">
+                  <label>Họ và tên</label>
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="FNAME"
+                    required="*"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Tuổi</label>
+                  <input
+                    class="form-control"
+                    type="number"
+                    name="YEAROLD"
+                    required="*"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Chiều cao + cân nặng</label>
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="BMI"
+                    required="*"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Địa chỉ hiện tại</label>
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="CURRENTADD"
+                    required="*"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Số điện thoại</label>
+                  <input
+                    class="form-control"
+                    type="tel"
+                    name="PHONE"
+                    required=""
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Email nhận thông báo tuyển dụng: </label>
+                  <input
+                    class="form-control"
+                    type="email"
+                    name="EMAIL"
+                    required="*"
+                  />
+                  <p>
+                    Chúng tôi sẽ gửi email thông báo tuyển dụng đến bạn. (nếu
+                    không có email bạn có thể dùng email của bạn bè hoặc người
+                    thân để nhận thông báo).
+                  </p>
+                </div>
+                <div class="button">
+                  <input
+                    class="btn btn-default submitf-07"
+                    type="submit"
+                    value="Có, tôi muốn xin làm bảo vệ"
+                  />
+                </div>
+                <p>
+                  <br />
+                  Hỗ trợ gọi zalo chị Thắm
+                  <a href="tel:0978333963">0978 333 963</a> hoặc
+                  <a href="https://zalo.me/0978333963">Zalo</a>
+                </p>
               </div>
-              <div class="form-group">
-                <label for="mce-PHONE">Điện thoại</label>
-                <input
-                  id="mce-PHONE"
-                  class="form-control"
-                  type="text"
-                  name="PHONE"
-                  value="097xxx"
-                  placeholder="Số điện thoại Viettel *"
-                />
-              </div>
-              <div class="form-group">
-                <label for="mce-MMERGE6">Địa chỉ</label>
-                <input
-                  id="mce-MMERGE6"
-                  type="text"
-                  value="ở đâu?"
-                  name="MMERGE6"
-                  class="form-control"
-                  placeholder="Địa chỉ nhà bạn *"
-                />
-              </div>
-              <div class="form-group">
-                <label>Email</label>
-                <input
-                  id="mce-EMAIL"
-                  type="email"
-                  class="form-control"
-                  name="EMAIL"
-                  value="ten@gmail.com"
-                  placeholder="Địa chỉ email nhận thông báo *"
-                />
-              </div>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px" aria-hidden="true">
+              <label style="display: none !important"
+                >Leave this field empty if you're human:
                 <input
                   type="text"
-                  name="b_0283066ababf88c6f15117b88_a6626b645e"
-                  tabindex="-1"
+                  name="_mc4wp_honeypot"
                   value=""
-                />
-              </div>
-              <div class="button">
-                <button
-                  id="mc-embedded-subscribe"
-                  type="submit"
-                  class="btn btn-default submitf-07"
-                  value="Subscribe"
-                  name="subscribe"
-                >
-                  Đồng ý
-                </button>
-              </div>
-              <div class="message_post-07"></div>
+                  tabindex="-1"
+                  autocomplete="off" /></label
+              ><input
+                type="hidden"
+                name="_mc4wp_timestamp"
+                value="1621035386"
+              /><input type="hidden" name="_mc4wp_form_id" value="5" /><input
+                type="hidden"
+                name="_mc4wp_form_element_id"
+                value="mc4wp-form-1"
+              />
+              <div class="mc4wp-response"></div>
             </form>
           </div>
           <div
