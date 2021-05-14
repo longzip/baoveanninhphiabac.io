@@ -181,6 +181,19 @@
       fbq('init', '241950547678859')
       fbq('track', 'PageView')
     </script>
+    <script id="mcjs">
+      !(function (c, h, i, m, p) {
+        ;(m = c.createElement(h)),
+          (p = c.getElementsByTagName(h)[0]),
+          (m.async = 1),
+          (m.src = i),
+          p.parentNode.insertBefore(m, p)
+      })(
+        document,
+        'script',
+        'https://chimpstatic.com/mcjs-connected/js/users/dafd0f159bea8e5be932061e6/242cd94943effe131c2cf11d5.js'
+      )
+    </script>
   </div>
 </template>
 <script>
