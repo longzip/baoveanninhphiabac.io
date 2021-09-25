@@ -1,64 +1,78 @@
 Tìm việc làm tại phúc yên, tuyển dụng phúc yên, việc làm part time phúc yên,
 phúc yên tuyển dụng, tìm việc làm phúc yên, viec lam phuc yen,
 
-<form
-  id="mc4wp-form-1"
-  class="mc4wp-form mc4wp-form-5"
-  method="post"
-  data-id="5"
-  data-name="Ứng tuyển"
->
-  <div class="mc4wp-form-fields">
-    <p>
-      <label>Họ và tên</label>
-      <input type="text" name="FNAME" required="*" />
-    </p>
-    <p>
-      <label>Tuổi</label>
-      <input type="number" name="YEAROLD" required="*" />
-    </p>
-    <p>
-      <label>Chiều cao + cân nặng</label>
-      <input type="text" name="BMI" required="*" />
-    </p>
-    <p>
-      <label>Địa chỉ hiện tại</label>
-      <input type="text" name="CURRENTADD" required="*" />
-    </p>
-    <p>
-      <label>Số điện thoại</label>
-      <input type="tel" name="PHONE" required="" />
-    </p>
-    <p>
-      <label
-        >Email đăng ký:
-        <input type="email" name="EMAIL" required="*" />
-      </label>
-    </p>
-    <p>
-      <label>
-        <input name="AGREE_TO_TERMS" type="checkbox" value="1" required="" />
-        <a href="https://vn.vieclambaove.ga/chinh-sach-bao-mat/" target="_blank"
-          >Tôi đã đọc và đồng ý với các điều khoản &amp; điều kiện
-        </a>
-      </label>
-    </p>
-    <p>
-      <input type="submit" value="Ứng tuyển ngay" class="btn btn-default" />
-    </p>
+<div class="row">
+  <div class="col-lg-4 col-md-4 col-sm-4">
+    <div class="form-group">
+      <input
+        class="form-control"
+        type="text"
+        name="FNAME"
+        placeholder="Họ và tên"
+        required=""
+      />
+    </div>
   </div>
-  <label style="display: none !important"
-    >Leave this field empty if you're human:
+  <div class="col-lg-4 col-md-4 col-sm-4">
+    <div class="form-group">
+      <input
+        class="form-control"
+        type="number"
+        name="YEAROLD"
+        placeholder="Tuổi"
+        required=""
+      />
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-4">
+    <div class="form-group">
+      <input
+        class="form-control"
+        type="text"
+        name="BMI"
+        placeholder="Chiều cao + cân nặng"
+        required=""
+      />
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-4">
+    <div class="form-group">
+      <input
+        class="form-control"
+        type="text"
+        name="CURRENTADD"
+        placeholder="Địa chỉ hiện tại"
+        required=""
+      />
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-4">
+    <div class="form-group">
+      <input
+        class="form-control"
+        type="tel"
+        name="PHONE"
+        placeholder="Số điện thoại"
+        required=""
+      />
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-4">
+    <div class="form-group">
+      <input
+        class="form-control"
+        type="email"
+        name="EMAIL"
+        placeholder="Địa chỉ email"
+        required
+      />
+    </div>
+  </div>
+  <div class="col-lg-12">
     <input
-      type="text"
-      name="_mc4wp_honeypot"
-      value=""
-      tabindex="-1"
-      autocomplete="off" /></label
-  ><input type="hidden" name="_mc4wp_timestamp" value="1621034134" /><input
-    type="hidden"
-    name="_mc4wp_form_id"
-    value="5"
-  /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />
-  <div class="mc4wp-response"></div>
-</form>
+      class="btn btn-default"
+      type="submit"
+      value="Có, tuôi muốn xin làm bảo vệ"
+    />
+  </div>
+</div>
