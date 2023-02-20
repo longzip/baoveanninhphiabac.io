@@ -1,5 +1,5 @@
 import jobs from './jobs.json'
-const publicPath = 'https://baoveanninhphiabac.ga'
+const publicPath = 'https://vieclambaove.ga'
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -159,7 +159,7 @@ export default {
     ],
     __dangerouslyDisableSanitizersByTagID: {
       'analytics-script': ['innerHTML'],
-    }
+    },
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
